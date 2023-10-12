@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2f1893;
+    color: white;
+}
+
+button {
+    border: none;
+}
+
+.pink-button {
+    background: #e8397c;
+    border-radius: 30px;
+    padding: 4px 20px;
+    color: white;
+    margin: 6px auto;
+}
+
+.purchase-margin {
+    margin-top: -4px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.right-nav>li {
+    padding: 0 1em;
+}
+
+.overview-nav {
+    color: #6656ae;
+}
+
+.signup-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 40% 40%;
+    margin: 0 auto;
+}
+.left-signup-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.left-signup-container h1{
+    font-size: 40px;
+    padding: 40px 0 40px 0;
+}
+
+.right-signup-container {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.right-signup-container h2{
+    font-size: 32px;
+    padding: 24px;
+}
+.signin-btn {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+
+}
+
+.login-btn {
+    background-color: #482be7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.signin {
+    color: #3addc9;
+}
+
+.span-container {
+    text-align: center;
+}
+
+.span-container span {
+    display: inline-block;
+    padding: 0 35px;
+    border-top: 0.1px solid gray;
+}
+
+.span-container span:nth-child(2) {
+    border: none;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+#or-element {
+    padding: 0;
+}
+
+.signup-element {
+    padding: 15px 20px;
+    width: 80%;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.input-element {
+    width: 70%;
+    border: 1px solid rgb(180, 180, 180);
+    outline: none;
+}
+
+form {
+    text-align: center;
+}
+
+.checkbok-element {
+    text-align: start;
+    margin-left: 10%;
+}
+
+.checkbok-element input {
+    background-color: rgb(255, 0, 0);
+}
