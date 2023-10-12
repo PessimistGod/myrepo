@@ -1,150 +1,275 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    background-color: #2f1893;
-    color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Black+And+White+Picture&family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;0,500;1,500&family=Nerko+One&family=Neucha&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,800&family=Patua+One&family=Playfair+Display:wght@600&family=Rubik+Bubbles&family=Rubik+Dirt&family=Unbounded:wght@300&display=swap');
 
-button {
-    border: none;
-}
 
-.pink-button {
-    background: #e8397c;
-    border-radius: 30px;
-    padding: 4px 20px;
-    color: white;
-    margin: 6px auto;
-}
 
-.purchase-margin {
-    margin-top: -4px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-.nav-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3em;
-    font-weight: 600;
-}
+    body {
+        background-color: #2f1893;
+        color: white;
+        font-family: "Open Sans";
+    }
 
-li {
-    list-style: none;
-}
+    button {
+        border: none;
+    }
 
-.right-nav {
-    display: flex;
-}
+    .pink-button {
+        background: #e8397c;
+        border-radius: 30px;
+        padding: 8px 23px;
+        color: white;
+        margin: 6px auto;
+    }
 
-.right-nav>li {
-    padding: 0 1em;
-}
+    .purchase-margin {
+        margin-top: -8px;
+        margin-left: 8px;
+        margin-right: -3px;
+    }
 
-.overview-nav {
-    color: #6656ae;
-}
+    .nav-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3em;
+        font-weight: 600;
+    }
 
-.signup-container {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 40% 40%;
-    margin: 0 auto;
-}
-.left-signup-container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    text-align: justify;
-}
-.left-signup-container h1{
-    font-size: 40px;
-    padding: 40px 0 40px 0;
-}
+    li {
+        list-style: none;
+    }
 
-.right-signup-container {
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 65vh;
-    padding: 20px;
-    border-radius: 25px;
-}
+    .right-nav {
+        display: flex;
 
-.right-signup-container h2{
-    font-size: 32px;
-    padding: 24px;
-}
-.signin-btn {
-    background-color: #1da1f2;
-    color: white;
-    border: none;
+    }
 
-}
+    .right-nav li {
+        padding: 0 1.5em;
+    }
 
-.login-btn {
-    background-color: #482be7;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 10px 20px;
-    margin: 10px;
-}
+    .overview-nav {
+        color: #6656ae;
+    }
 
-.signin {
-    color: #3addc9;
-}
+    .signup-container {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 40% 40%;
+        margin: 0 auto;
+    }
+    .left-signup-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 16em;
+        margin-top: -6em
+    }
+    .left-signup-container h1{
+        font-size: 3em;
+        
+    }
+    .left-signup-container p{
+        margin: 35px 0;
+        font-size: 1em;
+        font-size: large;
+        font-weight: 400;
+        padding: 0 70px 0 0;
+        
 
-.span-container {
-    text-align: center;
-}
+    }
+    #learn-more{
+        padding: 12px 35px;
+        margin-left: -0.5em;
+    }
 
-.span-container span {
-    display: inline-block;
-    padding: 0 35px;
-    border-top: 0.1px solid gray;
-}
+    .right-signup-container {
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 65vh;
+        padding: 30px;
+        border-radius: 10px;
+        margin-left: 12em;
+        margin-right: -2em;
+    }
 
-.span-container span:nth-child(2) {
-    border: none;
-    font-weight: 600;
-    margin: 0 10px;
-}
+    .right-signup-container h2{
+        font-size: 32px;
+        padding: 24px;
+    }
+    .signin-btn {
+        background-color: #482be7;
+        color: white;
+        border: none;
+        font-weight: 400;
+        font-style: "AR One Sans","Open Sans", Verdana ;
 
-#or-element {
-    padding: 0;
-}
+        
+    }
+    
+    .login-btn {
+        background-color: #1da1f2;
+        font-weight: 400;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 20px;
+        margin: 10px;
+        font-style: "AR One Sans","Open Sans", Verdana ;
+    }
 
-.signup-element {
-    padding: 15px 20px;
-    width: 80%;
-    border-radius: 30px;
-    margin: 10px;
+    .signin {
+        color: #3addc9;
+    }
 
-}
+    .span-container {
+        text-align: center;
+    }
 
-.input-element {
-    width: 70%;
-    border: 1px solid rgb(180, 180, 180);
-    outline: none;
-}
+    .span-container span {
+        display: inline-block;
+        padding: 0 70px;
+        border-top: 0.1px solid rgb(181, 180, 180);
+        
+    }
+    .span-container span:nth-child(1){
+        margin-bottom: 3px;
+    } 
+    .span-container span:nth-child(3){
+        margin-bottom: 3px;
+    } 
+    .span-container span:nth-child(2) {
+        border: none;
+        color: rgb(181, 180, 180);
+        margin: 0 5px;
+        padding: 0;
+    }
 
-form {
-    text-align: center;
-}
+    #or-element {
+        padding: 0;
+    }
 
-.checkbok-element {
-    text-align: start;
-    margin-left: 10%;
-}
+    .signup-element {
+        padding: 15px 20px;
+        width: 80%;
+        border-radius: 30px;
+        margin: 10px;
 
-.checkbok-element input {
-    background-color: rgb(255, 0, 0);
-}
+    }
+
+    .input-element {
+        width: 70%;
+        border: 1px solid rgb(180, 180, 180);
+        outline: none;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .custom-checkbox-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        margin: 10px 0 10px 10px;
+      }
+      .checkbox-text{
+        position: relative;
+        left: 0;
+        color: rgb(180, 180, 180);
+      }
+      .text-gray{
+        color: rgb(180, 180, 180);
+        margin: 20px 0;
+
+      }
+      .checkbox-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+      }
+      .custom-checkbox-container input[type="checkbox"] {
+        display: none;
+
+      }
+      
+      .custom-checkbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 17px;
+        height: 17px;
+        margin: 2px 2.3em;
+
+        border: 1px solid #000000;
+      }
+      
+      .custom-checkbox::before {
+
+        background-color: #25dac5;
+        content: "\2714";
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: rgb(16, 16, 16);
+        display: none;
+  
+      }
+      
+      .custom-checkbox-container input[type="checkbox"]:checked + .custom-checkbox::before {
+        display: block;
+      
+      }
+      
+
+      @media (max-width: 768px) {
+        .nav-container{
+            flex-direction: column;
+            justify-content: center;
+            
+            margin-left: 4em;
+        }
+        .right-nav li {
+            justify-content: center;
+            padding: 1rem;
+        }
+        .right-nav{
+            margin: 0;
+        }
+        .signup-container {
+            grid-template-columns: 100%;
+        }
+        .signup-container{
+            margin: 0;
+            
+        }
+        .left-signup-container{
+            margin: 0;
+        }
+        .right-signup-container{
+            margin: 10px 10px;
+            display: flex;
+            justify-items: center;
+
+            width: 100%;
+        }
+   
+    }
+    @media (max-width: 1420px){
+        .right-signup-container {
+            height: 45vh;
+            padding: 16px;
+        }
+
+    } 
